@@ -2,7 +2,7 @@
 
 This repository contains the Vue3 Component used to create Network Agent plugins for Runbook Solutions.
 
-
+![Sample Screenshot](./docs/example.png)
 
 -----
 

@@ -1,8 +1,10 @@
 <template>
-    <PluginEditor 
-        v-model="plugin"
-        :custom-argument-types="customArgumentTypes"
-    />
+    <div class="p-5">
+        <PluginEditor 
+            v-model="plugin"
+            :custom-argument-types="customArgumentTypes"
+        />
+    </div>
     <PVDivider />
     <pre class="overflow-hidden">{{ plugin }}</pre>
 </template>
