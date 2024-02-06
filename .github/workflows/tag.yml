@@ -1,0 +1,13 @@
+name: Detect and Tag Version
+on: 
+    push:
+        branches: master
+jobs:
+    tag-new-versions:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+          with:
+            fetch-depth: 2
+            token: ${{ secrets.GITHUB_TOKEN }}
+        - uses: salsify/action-detect-and-tag-new-version@v2
