@@ -5,8 +5,8 @@
     "type": "git",
     "url": "https://github.com/RunbookSolutions/vue-agent-plugin-editor.git"
   },
-  "version": "0.0.3",
-  "private": true,
+  "version": "0.0.4",
+  "private": false,
   "type": "module",
   "files": [
     "dist"
